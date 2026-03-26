@@ -1,145 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- 文字コード -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- レスポンシブ対応 -->
-    <title>マイポートフォリオポータルサイト</title>
-    <!-- サイトタイトル -->
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <!-- リセットCSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- 自作CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <!-- 文字コード -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- レスポンシブ対応 -->
+        <title>マイポートフォリオポータルサイト</title>
+        <!-- サイトタイトル -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/ress/dist/ress.min.css"
+        />
+        <!-- リセットCSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- 自作CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-  <body>
-    <!-- 全体を包むcontainerクラス（背景画像） -->
-    <div class="container">
-      <!-- ヘッダー -->
-      <header class="header wrapper">
-        <!-- タイトル画像 -->
-        <h1><img src="images/logo.png" alt="" /></h1>
+    <body>
+        <!-- 全体を包むcontainerクラス（背景画像） -->
+        <div class="container">
+            <!-- ヘッダー -->
+            <header class="header wrapper">
+                <!-- タイトル画像 -->
+                <h1><img src="images/logo.png" alt="" /></h1>
 
-        <!-- メインナビゲーション -->
-        <nav>
-          <ul>
-            <li><a href="#portfolios">Portfolios</a></li>
-            <li><a href="#profile">profile</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <!-- ヘッダー の終わり-->
+                <!-- メインナビゲーション -->
+                <nav>
+                    <ul>
+                        <li><a href="#portfolios">Portfolios</a></li>
+                        <li><a href="#profile">profile</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- ヘッダー の終わり-->
 
-      <div class="menu">
-        <div id="menu-icon" class="menu-icon">
-          <span>ー</span>
-          <span>ー</span>
-          <span>ー</span>
-        </div>
-        <nav id="menu-list" class="menu-list">
-          <ul>
-            <li><a href="#portfolios">Portfolios</a></li>
-            <li><a href="#profile">profile</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <!-- メイン -->
-      <main>
-        <!-- ポートフォリオ紹介 -->
-        <section id="portfolios" class="portfolios-area">
-          <h2>ポートフォリオ</h2>
-
-          <!-- グリッドで整列 -->
-          <div class="portfolio-grid">
-            <div class="grid-box">
-              <h3>2D横スクロールシューティング</h3>
-              <img src="images/works/scrath_shooting.png" alt="シューティング" />
-              <p>
-                scratchで作成した横スクロールシューティングゲームです。強制スクロールで横長のステージを攻略して最後にボスとの戦闘を楽しむことが出来ます。変数やリストを駆使して、あらかじめ計画したマップを繰り返し構文の入れ子構造で効率的に呼び出して、横長のステージを再現しています。
-              </p>
-              <a href="https://scratch.mit.edu/projects/1269326711/" target="_blank">作品詳細はこちら</a>
+            <div class="menu">
+                <div id="menu-icon" class="menu-icon">
+                    <span>ー</span>
+                    <span>ー</span>
+                    <span>ー</span>
+                </div>
+                <nav id="menu-list" class="menu-list">
+                    <ul>
+                        <li><a href="#portfolios">Portfolios</a></li>
+                        <li><a href="#profile">profile</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <div class="grid-box">
-              <h3>タイトル</h3>
-              <img src="images/works/noimage.png" alt="タイトル" />
-              <p>
-                作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明
-              </p>
-              <a href="" target="_blank">作品詳細はこちら</a>
-            </div>
+            <!-- メイン -->
+            <main>
+                <section id="portfolios" class="portfolios-area">
+                    <h2>企画書</h2>
 
-            <div class="grid-box">
-              <h3>タイトル</h3>
-              <img src="images/works/noimage.png" alt="タイトル" />
-              <p>
-                作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明
-              </p>
-              <a href="" target="_blank">作品詳細はこちら</a>
-            </div>
-          </div>
-          <!-- グリッドで整列 の終わり-->
-        </section>
-        <!-- ポートフォリオ紹介 の終わり-->
+                    <!-- グリッドで整列 -->
+                    <div class="portfolio-grid">
+                        <div class="grid-box">
+                            <h3>ロボサバ</h3>
+                            <iframe src="images/robo.pdf" width="100%" height="100%"></iframe>
+                            <ul>
+                                <li>◇タイトル：ロボサバ</li>
+                                <li>◇ジャンル：2D見下ろし型 タワーディフェンス×ローグライク</li>
+                                <li>◇コンセプト：ロボvsゾンビ化した人類。短時間で遊べ、毎回アイテムがランダムに変化するため「あと1回だけ」が止まらないタワーディフェンス</li>
+                            </ul>
+                            <a class="Button"
+                                href="https://scratch.mit.edu/projects/1269326711/"
+                                target="_blank">作品詳細はこちら</a
+                            >
+                        </div>
 
-        <!-- 自分の紹介（アバウト） -->
-        <section id="profile" class="about wrapper">
-          <div class="about-img-area">
-            <img src="images/profile_icon.png" alt="自分のアイコン" />
-          </div>
-          <div class="about-message">
-            <h3>koizumi</h3>
-            <p>メッセージ</p>
-            <p>メッセージ</p>
-            <p>メッセージ</p>
-          </div>
-        </section>
-        <!-- 自分の紹介（アバウト） の終わり-->
+                        <div class="grid-box">
+                            <h3>タイトル</h3>
+                            <img
+                                src="images/works/noimage.png"
+                                alt="タイトル"
+                            />
+                            <p>
+                                作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明
+                            </p>
+                            <a href="" target="_blank">作品詳細はこちら</a>
+                        </div>
 
-        <!-- 装飾コーナー（スライドショー） -->
-        <section class="pickup-area wrapper">
-          <div class="slide-area">
-            <!-- JavaScriptでimgを自動追加 -->
-          </div>
-          <div class="slide-button">
-            <!-- JavaScriptでspanを自動追加 -->
-          </div>
-        </section>
-        <!-- ピックアップコーナー（スライドショー） の終わり-->
-      </main>
-      <!-- メイン の終わり-->
+                        <div class="grid-box">
+                            <h3>タイトル</h3>
+                            <img
+                                src="images/works/noimage.png"
+                                alt="タイトル"
+                            />
+                            <p>
+                                作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明
+                            </p>
+                            <a class="Button"
+                             href="" target="_blank">作品詳細はこちら</a>
+                        </div>
+                    </div>
+                    <!-- グリッドで整列 の終わり-->
+                </section>
 
-      <!-- フッター -->
-      <footer class="footer">
-        <div id="contact" class="contact">
-          <a href=""><img src="images/mail.png" alt="mail" /></a>
-          <a href=""><img src="images/github.png" alt="gitHub" /></a>
-          <a href=""><img src="images/x.png" alt="x" /></a>
-          <a href=""><img src="images/instagram.png" alt="insta" /></a>
-          <a href=""><img src="images/line.png" alt="line" /></a>
+                <!-- ゲーム紹介 -->
+                <section id="portfolios" class="portfolios-area">
+                    <h2>ゲーム</h2>
+
+                    <!-- グリッドで整列 -->
+                    <div class="portfolio-grid">
+
+<div class="grid-box">
+                            <h3>JewelryHunter World</h3>
+                            <img
+                                src="images/works/noimage.png"
+                                alt="タイトル"
+                            />
+                            <p>
+                                unityのUniversal2Dプロジェクトとして作った横スクロールのアクションゲームです。<br>
+                                見下ろし型のワールドマップから選択したステージに入り、2ステージクリアするとボスステージに進めます。<br>
+                                ステージに入るためのロック解除やステージクリアのフラグ管理など細かい技術に加え、続きからゲームができるセーブ機能など工夫しています。
+                            </p>
+                            <a href="https://github.com/sirzelwon-hash/JewelryHunter_World/tree/top" target="_blank">作品詳細はこちら</a>
+                        </div>
+
+
+                        <div class="grid-box">
+                            <h3>3D横スクロールアクション</h3>
+                            <img
+                                src="images/animal_demo.png"
+                                alt="シューティング"
+                            />
+                            <ul>
+                                <li>制作：unity</li>
+                                <li>
+                                    概要：Playerキャラを変身させて進める3D横スクロールアクション
+                                </li>
+                                <li>
+                                    ポイント：チーム制作物。私は敵キャラ2種を担当し、コードを作成しました。
+                                    ・敵1：索敵範囲内にプレイヤーが入った場合にプレイヤーに向かって突進を行うドローン
+                                    ・敵2：前方無敵の盾と、ショット攻撃を一定期間で繰り返すタツノオトシゴ
+                                </li>
+                            </ul>
+                            <a
+                                href="https://github.com/Dyna-Rise/Animal_United_Front_BLUE"
+                                target="_blank"
+                                >作品詳細（GitHub）
+                            </a>
+                            <a
+                                href="https://dynarise2001.xyz/kunren/animal_united_front_blue_team/"
+                                target="_blank"
+                                >ゲームプレイ
+                            </a>
+                        </div>
+
+                        <div class="grid-box">
+                            <h3>タイトル</h3>
+                            <img
+                                src="images/works/noimage.png"
+                                alt="タイトル"
+                            />
+                            <p>
+                                作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明
+                            </p>
+                            <a href="" target="_blank">作品詳細はこちら</a>
+                        </div>
+
+                        <div class="grid-box">
+                            <h3>タイトル</h3>
+                            <img
+                                src="images/works/noimage.png"
+                                alt="タイトル"
+                            />
+                            <p>
+                                作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明作品説明
+                            </p>
+                            <a href="" target="_blank">作品詳細はこちら</a>
+                        </div>
+                    </div>
+                    <!-- グリッドで整列 の終わり-->
+                </section>
+                <!-- ポートフォリオ紹介 の終わり-->
+
+                <!-- 自分の紹介（アバウト） -->
+                <section id="profile" class="about wrapper">
+                    <div class="about-img-area">
+                        <img
+                            src="images/sushi_nigiri_salmon.png"
+                            alt="自分のアイコン"
+                        />
+                    </div>
+                    <div class="about-message">
+                        <h3>koizumi</h3>
+                        <p>メッセージ</p>
+                        <p>メッセージ</p>
+                        <p>メッセージ</p>
+                    </div>
+                    <div class="about-history">
+                        <h3>職歴</h3>
+                        <p>コールセンターに10年以上勤務</p>
+                        <p>SV、リーダー、OJT経験有</p>
+                        <p></p>
+                    </div>
+                </section>
+                <!-- 自分の紹介（アバウト） の終わり-->
+
+                <!-- 装飾コーナー（スライドショー） -->
+                <section class="pickup-area wrapper">
+                    <div class="slide-area">
+                        <!-- JavaScriptでimgを自動追加 -->
+                    </div>
+                    <div class="slide-button">
+                        <!-- JavaScriptでspanを自動追加 -->
+                    </div>
+                </section>
+                <!-- ピックアップコーナー（スライドショー） の終わり-->
+            </main>
+            <!-- メイン の終わり-->
+
+            <!-- フッター -->
+            <footer class="footer">
+                <div id="contact" class="contact">
+                    <a href=""><img src="images/mail.png" alt="mail" /></a>
+                    <a href=""><img src="images/github.png" alt="gitHub" /></a>
+                </div>
+                <div class="copy-right">
+                    <p>&copy;Name's Portfolio Site 2026</p>
+                </div>
+            </footer>
+            <!-- フッター の終わり-->
+
+            <!-- トップへ戻るボタン -->
+            <a href="#" id="to-top-button"></a>
         </div>
-        <div class="copy-right">
-          <p>&copy;Name's Portfolio Site 2026</p>
-        </div>
-      </footer>
-      <!-- フッター の終わり-->
+        <!-- 全体を包むcontainerクラス の終わり（背景画像） -->
 
-      <!-- トップへ戻るボタン -->
-      <a href="#" id="to-top-button"></a>
-    </div>
-    <!-- 全体を包むcontainerクラス の終わり（背景画像） -->
-
-    <!-- JavaScriptの連動ファイルの指定 -->
-    <script src="js/script.js"></script>
-  </body>
+        <!-- JavaScriptの連動ファイルの指定 -->
+        <script src="js/script.js"></script>
+    </body>
 </html>

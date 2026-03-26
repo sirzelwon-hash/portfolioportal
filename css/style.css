@@ -10,7 +10,7 @@ body {
   /* ブラウザ設定サイズを活かす */
   font-size: 100%;
   /*サイト内の文字は全て基本的に白 ※a除く*/
-  color: #fff;
+  color: #3b3b3b;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: normal;
   line-height: 1.75;
@@ -23,7 +23,7 @@ dl {
 }
 
 a {
-  color: #fff;
+  color: #3636364b;
   text-decoration: none;
 }
 
@@ -44,8 +44,7 @@ section {
 /* 全体を囲むクラス */
 .container {
   /* サイト全体の背景色 */
-  background-color: #00003e;
-  background-image: url("../images/back.png");
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -287,10 +286,16 @@ section {
 }
 
 .grid-box a {
-  background: #88f;
+  background: #4d5079;
   padding: 2% 4%;
   border-radius: 6px;
   font-size: 0.8em;
+  margin: 1% 1%;
+  columns: #fff;
+}
+
+.Button a{
+  color: #fff;
 }
 
 /* -------------------
@@ -305,7 +310,11 @@ section {
 
 .about-img-area {
   /* 少し小さめの画像にする */
-  width: 50%;
+  width: 30%;
+}
+
+.about-history{
+  background-color: #bdbdbd;
 }
 
 .about-img-area img {
