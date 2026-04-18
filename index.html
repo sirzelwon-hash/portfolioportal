@@ -69,11 +69,14 @@
                                 src="images/works/jewelry_demo.png"
                                 alt="タイトル"
                             />
-                            <p>
-                                unityのUniversal2Dプロジェクトとして作った横スクロールのアクションゲームです。<br>
-                                見下ろし型のワールドマップから選択したステージに入り、2ステージクリアするとボスステージに進めます。<br>
-                                ステージに入るためのロック解除やステージクリアのフラグ管理など細かい技術に加え、続きからゲームができるセーブ機能など工夫しています。
-                            </p>
+                            <ul>
+                                <li>制作：unity</li>
+                                <li>概要：2D横スクロールのアクションゲーム</li>
+                                <li>
+                                    ポイント：見下ろし型のワールドマップから選択したステージに入り、2ステージクリアするとボスステージに進めます
+                                    ステージに入るためのロック解除やステージクリアのフラグ管理など細かい技術に加え、続きからゲームができるセーブ機能など工夫しています。
+                                </li>
+                            </ul>
                             <a
                                 href="https://github.com/sirzelwon-hash/JewelryHunter_World/tree/top"
                                 target="_blank"
@@ -86,7 +89,6 @@
                             </a>
                         </div>
 
-
                         <div class="grid-box">
                             <h3>3D横スクロールアクション</h3>
                             <img
@@ -96,12 +98,12 @@
                             <ul>
                                 <li>制作：unity</li>
                                 <li>
-                                    概要：Playerキャラを変身させて進める3D横スクロールアクション
+                                    概要：Playerキャラを変身させて進める3D横スクロールアクション（チーム制作）
                                 </li>
                                 <li>
-                                    ポイント：チーム制作物。私は敵キャラ2種を担当し、コードを作成しました。
-                                    ・敵1：索敵範囲内にプレイヤーが入った場合にプレイヤーに向かって突進を行うドローン
-                                    ・敵2：前方無敵の盾と、ショット攻撃を一定期間で繰り返すタツノオトシゴ
+                                    ポイント：敵キャラ2種を担当し、コードを作成しました。<br />
+                                    ・敵1：索敵範囲内にプレイヤーが入った場合にプレイヤーに向かって突進を行うドローン<br />
+                                    ・敵2：前方無敵の盾と、ショット攻撃を一定期間で繰り返すタツノオトシゴ<br />
                                 </li>
                             </ul>
                             <a
@@ -122,31 +124,45 @@
 
                 <!-- 自分の紹介（アバウト） -->
                 <section id="profile" class="about wrapper">
-                <h2>プロフィール</h2>
-                    <div class="about-img-area">
-                        <img
-                            src="images/sushi_nigiri_salmon.png"
-                            alt="自分のアイコン"
-                        />
-                    </div>
-                    <div class="about-message">
-                        <h3>koizumi</h3>
-                        <p>子供のころからゲームが好き</p>
-                        <p>36歳でゲーム業界への転職を決意</p>
-                        <p>スタッフロールに自分の名前を載せるのが夢</p>
-                    </div>
-                    <div class="about-history">
-                        <h3>職歴</h3>
-                        <p>コールセンターに10年以上勤務</p>
-                        <p>SV、リーダー、OJT経験有</p>
-                    </div>
-                    <div class="my-games-area">
-                        <h3>私を構成する9つのゲーム</h3>
-                        <img
-                            src="images/works/my_games.png"
-                            alt="9つのゲーム"
-                        />
-                        <p>thanks:<a href="https://my9games.com/">私を構成する9つのゲーム</a></p>
+                    <h2>プロフィール</h2>
+
+                    <!-- グリッドで整列 -->
+                    <div class="about-grid">
+                        <div class="about-img-area">
+                            <img
+                                src="images/sushi_nigiri_salmon.png"
+                                alt="自分のアイコン"
+                            />
+                        </div>
+                        <div class="about-message">
+                            <h3>koizumi</h3>
+                            <ul>
+                                <li>子供のころからゲームが好き</li>
+                                <li>36歳でゲーム業界への転職を決意</li>
+                                <li>
+                                    スタッフロールに自分の名前を載せるのが夢
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about-history">
+                            <h3>職歴</h3>
+                            <ul>
+                                <li>コールセンターに10年以上勤務</li>
+                                <li>SV、リーダー、OJT経験有</li>
+                            </ul>
+                        </div>
+                        <div class="my-games-area">
+                            <h3>私を構成する9つのゲーム</h3>
+                            <img
+                                src="images/works/my_games.png"
+                                alt="9つのゲーム"
+                            />
+                            <p>
+                                thanks:<a href="https://my9games.com/"
+                                    >私を構成する9つのゲーム</a
+                                >
+                            </p>
+                        </div>
                     </div>
                 </section>
                 <!-- 装飾コーナーの終わり-->
@@ -156,14 +172,15 @@
             <!-- フッター -->
             <footer class="footer">
                 <div id="contact" class="contact">
-                    <a href="mailto:sirzelwon@gmail.com"><img src="images/mail.png" alt="mail" /></a>
+                    <a href="mailto:sirzelwon@gmail.com"
+                        ><img src="images/mail.png" alt="mail"
+                    /></a>
                 </div>
                 <div class="copy-right">
                     <p>&copy;Koizumi's Portfolio Site 2026</p>
                 </div>
             </footer>
             <!-- フッター の終わり-->
-
 
             <!-- トップへ戻るボタン -->
             <a href="#" id="to-top-button"></a>
